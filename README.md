@@ -1,6 +1,22 @@
 # Siamese-Network
 This is a Deep Learning Facial Recognition model that uses Siamese-Network
 
+## Dataset
+
+The code utilizes the [Labelled Faces in the Wild (LFW)](http://vis-www.cs.umass.edu/lfw/) dataset for training and testing. 
+
+### Dataset Download
+
+Please download the LFW dataset from the [official website](http://vis-www.cs.umass.edu/lfw/) and extract the files.
+
+### Dataset Directory
+
+Once the dataset is downloaded and extracted, place the dataset files in the `lfw` directory. The `lfw` directory should be created in the same directory as the code files.
+
+The directory structure should look like this:
+
+
+
 # Image Collection and Verification
 
 This code provides functionality for collecting images from a webcam and performing verification using a siamese neural network model. It allows the user to collect anchor, positive, and negative images, preprocess them, build a siamese model, train the model, evaluate its performance, and perform real-time verification using the trained model.
